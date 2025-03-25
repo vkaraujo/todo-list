@@ -27,7 +27,6 @@ function Item({ item, todos, setTodos }) {
       )
     );
 
-    // Update localStorage after marking todo as completed
     const updatedTodos = JSON.stringify(todos);
     localStorage.setItem("todos", updatedTodos);
   };
@@ -40,7 +39,6 @@ function Item({ item, todos, setTodos }) {
     if (editing && inputRef.current) {
       inputRef.current.focus();
 
-      // position the cursor at the end of the text
       inputRef.current.setSelectionRange(
         inputRef.current.value.length,
         inputRef.current.value.length
@@ -59,7 +57,6 @@ function Item({ item, todos, setTodos }) {
   const handleInpuSubmit = (event) => {
     event.preventDefault();
 
-    // Update localStorage after editing todo
     const updatedTodos = JSON.stringify(todos);
     localStorage.setItem("todos", updatedTodos);
 
@@ -67,7 +64,6 @@ function Item({ item, todos, setTodos }) {
   };
 
   const handleInputBlur = () => {
-    // Update localStorage after editing todo
     const updatedTodos = JSON.stringify(todos);
     localStorage.setItem("todos", updatedTodos);
 
@@ -77,7 +73,6 @@ function Item({ item, todos, setTodos }) {
   const handleDelete = () => {
     setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== item.id));
 
-    // Update localStorage after deleting todo
     const updatedTodos = JSON.stringify(
       todos.filter((todo) => todo.id !== item.id)
     );

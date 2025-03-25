@@ -18,7 +18,7 @@ function Form({ todos, setTodos }) {
   };
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <form role="form" className="form" onSubmit={handleSubmit}>
       <label htmlFor="todo">
         <input
           type="text"
