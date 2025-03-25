@@ -1,18 +1,44 @@
-# React + Vite
+# ✅ Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern Todo List built with **React + Vite**, featuring:
 
-Currently, two official plugins are available:
+- Task creation
+- Task completion tracking
+- Inline task editing
+- Local storage persistence
+- Clean, responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📝 Add, edit, and delete to-dos
+- ✅ Mark tasks as completed
+- 💾 Data saved in `localStorage` (no backend needed)
+- ⚡ Built with **Vite** for fast development
+- 🎯 100% client-side
+
+
+## 🧰 Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Vitest](https://vitest.dev/) for testing and coverage
 
 
 ## Test Coverage Report
+
+### 🧪 Running Tests
+
+To run tests:
+```bash
+npm run test
+```
+
+To generate a coverage report:
+```bash
+npm run coverage
+```
 
 Below is a screenshot of the current test coverage for the project:
 
