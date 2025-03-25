@@ -30,4 +30,17 @@ export default [
       ],
     },
   },
+  {
+    // 👇 Vitest-specific config for test files
+    files: ['**/*.test.{js,jsx}'],
+    plugins: {
+      vitest,
+    },
+    languageOptions: {
+      globals: vitest.environments.globals.globals, // 👈 this enables `describe`, `it`, etc.
+    },
+    rules: {
+      ...vitest.configs.recommended.rules,
+    },
+  },
 ]
