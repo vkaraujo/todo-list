@@ -11,7 +11,7 @@ A simple and modern Todo List built with **React + Vite**, featuring:
 ## 🚀 Live Demo
 
 Check out the deployed app on Vercel:  
-👉 [To Do List on Vercel]([https://todo-list-navy-seven-72.vercel.app/])
+👉 [To Do List on Vercel](https://todo-list-navy-seven-72.vercel.app/)
 
 
 ## 🔧 Features
