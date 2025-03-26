@@ -8,8 +8,13 @@ A simple and modern Todo List built with **React + Vite**, featuring:
 - Local storage persistence
 - Clean, responsive UI
 
+## 🚀 Live Demo
 
-## 🚀 Features
+Check out the deployed app on Vercel:  
+👉 [To Do List on Vercel]([https://todo-list-navy-seven-72.vercel.app/])
+
+
+## 🔧 Features
 
 - 📝 Add, edit, and delete to-dos
 - ✅ Mark tasks as completed
